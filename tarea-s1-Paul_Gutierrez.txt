@@ -1,0 +1,144 @@
+    1  ls
+    2  dir
+    3  ls
+    4  cd ..
+    5  cd ..
+    6  ls
+    7  cd taller-git/
+    8  cd login/
+    9  git init
+   10  ls -a
+   11  ls
+   12  code .
+   13  git status
+   14  git add .
+   15  git commit -m "Create file and set title"
+   16  git log
+   17  git status
+   18  git add .
+   19  git status
+   20  git commit -m "Change html and add logo tech png"
+   21  git log
+   22  git status
+   23  git add .
+   24  git status
+   25  git commit -m "add style and google fonts"
+   26  git status
+   27  git add .
+   28  git status
+   29  git commit -m "add classname to labels"
+   30  git log
+   31  git add .
+   32  git status
+   33  git commit -m "logo reponsive"
+   34  git log
+   35  git checkout [200~da9d30140b0a93ee55813a161fd48c622dec0eca~
+   36  git checkout da9d30140b0a93ee55813a161fd48c622dec0eca
+   37  git checkout da9d30
+   38  git status
+   39  git add .
+   40  git status
+   41  git restore --staged index.html
+   42  git status
+   43  git restore index.html
+   44  git status
+   45  git log
+   46  git checkout da9d301
+   47  git checkout master
+   48  cd c:
+   49  ls
+   50  cd taller-git/
+   51  cd login/
+   52  ls
+   53  git branch develop
+   54  git branch
+   55  git checkout develop
+   56  git branch
+   57  code .
+   58  git status
+   59  git add .
+   60  git status
+   61  git commit -m "add login html file and new folder img"
+   62  git log
+   63  clear
+   64  git log
+   65  git status
+   66  git add .
+   67  git status
+   68  git add .
+   69  git status
+   70  git commit -m "copy structure from index and paste in login"
+   71  git log
+   72  git status
+   73  git add .
+   74  git commit -m "Changes texts"
+   75  git log
+   76  clear
+   77  git log
+   78  git checkout master
+   79  git merge develop
+   80  git status
+   81  git log
+   82  clear
+   83  git log
+   84  clear
+   85  git log
+   86  cd c:
+   87  cd taller-git/login
+   88  clear
+   89  git remote add origin https://github.com/PaulGutierrez-2/taller-git.git
+   90  ls -a
+   91  cd ..
+   92  ls -a
+   93  cd login/
+   94  git branch -M main
+   95  git push -u orogin main
+   96  git push -u origin main
+   97  git checkout develop
+   98  git push -u origin develop
+   99  dir
+  100  cd Documents
+  101  dir
+  102  cd WORKSPACE/
+  103  dir
+  104  cd [200~C:\Users\pauan\Documents\WORKSPACE\Practica1-T4C~
+  105  cd Practica1-T4C/
+  106  clear
+  107  mkdir documentos imagenes scripts
+  108  dir
+  109  clear
+  110  cl
+  111  clr
+  112  clear
+  113  mkdir proyecto_comandos
+  114  cd proyecto_comandos/
+  115  mkdir documentos imagenes scripts
+  116  dir
+  117  clear
+  118  cd documentos/
+  119  touch notas.txt
+  120  dir
+  121  echo "1era linea" > notas.txt
+  122  echo "2da linea" >> notas.txt
+  123  echo "3ra linea" >> notas.txt
+  124  cat notas.txt
+  125  cp notas.txt ../scripts/backup_notas.txt
+  126  ls ../scripts
+  127  mv ../scripts/backup_notas.txt ../imagenes/
+  128  ls ../imagenes
+  129  ls ../scripts
+  130  clear
+  131  touch resumen.txt
+  132  cat notas.txt > resumen.txt
+  133  cat resumen.txt
+  134  echo "4ta linea" >> resumen.txt
+  135  cat resumen.txt
+  136  clear
+  137  cd ..
+  138  cd imagenes
+  139  rm backup_notas.txt
+  140  dir
+  141  cd ..
+  142  rmdir imagenes
+  143  dir
+  144  history > tarea-s1-Paul_Gutierrez.txt
